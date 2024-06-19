@@ -12,6 +12,8 @@ The task is to implement the `GetStations` method in the `StationsController` cl
 
 The database's Station model's StationUicOrPart field unfortunately has inconsistent formatting. It can be either a complete 7-digit StationUic with the first four digits always being `8600`, or a partial 3-digit StationUic representing the last three digits of the complete code. An example could be a full StationUic like `8600123` with its partial equivalent `123`.
 
+Make a pull request to this repository with your solution.
+
 ## Requirements
 
 - The `GetStations` endpoint should return a list of stations with the StationUicPart.
@@ -20,7 +22,6 @@ The database's Station model's StationUicOrPart field unfortunately has inconsis
 - The API should be properly decoupled.
 - The API should be properly unit tested.
 - Implement the mapping logic in such a way that it is reusable and easy to add new mapping rules in the future.
-- Make a pull request to this repository with your solution.
 
 ## The rules
 
@@ -29,5 +30,5 @@ The database's Station model's StationUicOrPart field unfortunately has inconsis
 - You are not allowed to change the StationDto model.
 - You are not allowed to modify the seeded stations in the database, though you are allowed to add more.
 - You are allowed to create new classes and interfaces.
-- You are allowed to change the StationsController class.
+- You are allowed to change the StationController class.
 - You are allowed to modify `Program.cs`.
