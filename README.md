@@ -20,7 +20,8 @@ Send a zip file with your solution to ldsk@trifork.com at least 24 hours before 
   - This means that if the StationUicOrPart is a full StationUic, the StationUicPart should consist of the last three digits of the StationUic. If the StationUicOrPart is a partial StationUic, the StationUicPart should be the same as the StationUicOrPart.
   - For example, if the StationUicOrPart is `8600123`, the StationUicPart should be `123`. If the StationUicOrPart is `123`, the StationUicPart should be `123`.
 - The models used internally in the API should be properly decoupled from the models exposed by the API.
-- The API should be properly unit tested.
+- The business logic with the StationUicPart should be properly unit tested.
+- This application is going to end up being a big enterprise monolith. Make sure your architecture is scalable.
 
 ## The rules
 
