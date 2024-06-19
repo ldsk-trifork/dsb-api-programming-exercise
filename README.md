@@ -12,7 +12,7 @@ The task is to implement the `GetStations` method in the `StationsController` cl
 
 The database's Station model's StationUicOrPart field unfortunately has inconsistent formatting. It can be either a complete 7-digit StationUic with the first four digits always being `8600`, or a partial 3-digit StationUic representing the last three digits of the complete code. An example could be a full StationUic like `8600123` with its partial equivalent `123`.
 
-Create a pull request to this repository with your solution.
+Send a zip file with your solution to ldsk@trifork.com at least 24 hours before your interview.
 
 ## Requirements
 
