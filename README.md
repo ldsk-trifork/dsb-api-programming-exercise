@@ -27,7 +27,7 @@ Send a zip file with your solution to ldsk@trifork.com at least 24 hours before 
 ## The rules
 
 - You are not allowed to change the StationUicOrPart field in the database.
-- You are not allowed to change the Station model.
+- You are not allowed to change the Station model database schema.
 - You are not allowed to change the StationDto model.
 - You are not allowed to modify the seeded stations in the database, though you are allowed to add more.
 - You are allowed to create new classes and interfaces.
