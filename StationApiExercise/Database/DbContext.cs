@@ -14,13 +14,6 @@ public class StationDbContext : DbContext
         const Environment.SpecialFolder folder = Environment.SpecialFolder.LocalApplicationData;
         var path = Environment.GetFolderPath(folder);
         DbPath = Path.Join(path, "station.db");
-        
-        // If the DB does not exist, create it
-        if (!File.Exists(DbPath))
-        {
-            var fileStream = new FileStream(DbPath, FileMode.Create);
-            fileStream.Close();
-        }
     }
 
     // The following configures EF to create a Sqlite database file in the
